@@ -1,0 +1,136 @@
+/* ===========================
+   Global Styles
+=========================== */
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #E5EEF8;
+  color: #333;
+  background-image: url(images/bckgrnd.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ===========================
+   Header + Navigation
+=========================== */
+header.main-header {
+  background-color: #F2F7FB;
+  padding: 15px 20px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.nav-left a {
+    text-decoration: none;
+}
+
+.nav-logo {
+  height: 60px;
+  width: auto;
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.nav-link {
+  display: flex;               /* makes logo and text side-by-side */
+  align-items: center;         /* vertically aligns logo and text */
+  gap: 15px;                   /* spacing between logo and text */
+  text-decoration: none;       /* removes underline */
+  color: inherit;              /* keeps your text color */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: darkgray;
+  text-decoration: none;
+}
+
+.header-text p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: darkgray;
+  text-decoration: none;
+  text-emphasis: none;
+}
+
+
+/* ===========================
+   Main Content
+=========================== */
+main {
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.park {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+  background-color: transparent;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.park img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.parkimg {
+  width: 500%;
+  max-width: 250px;
+  object-fit: cover;
+  height: 250px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.park div {
+  flex: 1;
+  padding: 20px;
+}
+
+.park-link {
+    text-decoration: none;
+    color: #28607E;
+}
+
+/* ===========================
+   Footer
+=========================== */
+footer {
+  background-color: #28607E;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
